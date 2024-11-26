@@ -1,13 +1,10 @@
 import streamlit as st
-import seaborn as sns
-import matplotlib.pyplot as plt
 import joblib
 import os 
 from PIL import Image
 from torchvision import transforms, models
 import torch
 import torch.nn as nn
-import numpy as np 
 
 
 classes = ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'shark', 'starfish', 'stingray']
