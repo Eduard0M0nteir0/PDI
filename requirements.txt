@@ -1,7 +1,7 @@
 streamlit
-scikit-learn
-pytorch
-torchvision
+scikit-learn==1.5.1
+pytorch==2.3
+torchvision==2.3
 PIL
 joblib
 pandas
