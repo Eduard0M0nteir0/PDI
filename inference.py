@@ -34,4 +34,7 @@ outputs = outputs.view(outputs.size(0), -1)
 outputs = outputs.cpu().detach().numpy()
 model_dt = joblib.load(os.path.join('models', "SVM.pkl"))
 pred = model_dt.predict(outputs)
+proba = model_dt.predict_proba(outputs)
+
 print(pred)
+print(proba)
